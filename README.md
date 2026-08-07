@@ -14,6 +14,21 @@ There are no separate universal7904 common device or vendor projects. Hardware
 identifiers required by the Exynos 7904 platform remain unchanged inside the
 source.
 
+## crDroid Android 17 status
+
+As of 2026-08-07, the official
+[`crdroidandroid/android`](https://github.com/crdroidandroid/android) manifest
+has `16.0` as its newest/default Android branch and does not publish a `17.0`
+branch. This Android 17 bring-up therefore deliberately keeps the LineageOS
+24.0 platform and Samsung/SLSI dependencies. Pointing it at crDroid `16.0`
+would mix Android generations and is not a supported migration.
+
+When crDroid publishes `17.0`, migrate the platform init URL to
+`https://github.com/crdroidandroid/android.git`, audit every Samsung/SLSI
+dependency for a compatible `17.0` branch, and retain LineageOS only for any
+hardware dependency that crDroid does not carry. The private Project-Wisdom
+repositories and their `android-17` branches do not need to be renamed.
+
 ## Initialize a workspace
 
 Authenticate Git for the private Project-Wisdom repositories first:
