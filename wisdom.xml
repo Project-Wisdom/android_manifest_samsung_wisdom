@@ -8,25 +8,21 @@
     path="device/samsung/wisdom"
     name="Project-Wisdom/android_device_samsung_wisdom"
     remote="github-full"
-    revision="android-17" />
+    revision="17.0" />
 
   <project
     path="vendor/samsung/wisdom"
     name="Project-Wisdom/proprietary_vendor_samsung_wisdom"
     remote="github-full"
-    revision="android-17" />
+    revision="17.0" />
 
   <project
     path="kernel/samsung/wisdom"
     name="Project-Wisdom/android_kernel_samsung_wisdom"
     remote="github-full"
-    revision="android-17" />
+    revision="17.0" />
 
-  <project
-    path="packages/apps/PhhIms"
-    name="Project-Wisdom/ims-for-wisdom"
-    remote="github-full"
-    revision="android-17" />
+  <!-- TODO: Restore packages/apps/PhhIms from the maintainer-owned IMS repository. -->
 
   <project
     path="device/samsung_slsi/sepolicy"
@@ -110,6 +106,6 @@
     path="patches/samsung/wisdom"
     name="Project-Wisdom/android_patches_samsung_wisdom"
     remote="github-full"
-    revision="android-17" />
+    revision="17.0" />
 
 </manifest>
