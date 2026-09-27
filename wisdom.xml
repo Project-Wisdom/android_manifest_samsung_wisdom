@@ -22,7 +22,11 @@
     remote="github-full"
     revision="17" />
 
-  <!-- TODO: Restore packages/apps/PhhIms from the maintainer-owned IMS repository. -->
+  <project
+    path="packages/apps/PhhIms"
+    name="xuanyayi/ims-for-wisdom"
+    remote="github-full"
+    revision="derpfest-17" />
 
   <project
     path="device/samsung_slsi/sepolicy"
