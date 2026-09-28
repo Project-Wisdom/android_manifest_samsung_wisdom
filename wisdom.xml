@@ -26,7 +26,8 @@
     path="packages/apps/PhhIms"
     name="xuanyayi/ims-for-wisdom"
     remote="github-full"
-    revision="derpfest-17" />
+    revision="derpfest-17"
+    sync-s="true" />
 
   <project
     path="device/samsung_slsi/sepolicy"
